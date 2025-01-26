@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tea House</title>
+    <link rel="shortcut icon" href="images/banner.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/2a2aa3612e.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
+    <style>
+        .font{
+            font-family: "Manrope", serif;
+        }
+    </style>
+</head>
+<body>
+<!-- Main Content  -->
+ <header class="bg-orange-100">
+    <div class="flex justify-between items-center max-w-screen-xl mx-auto pt-5 pb-16">
+    <div>
+        <h1 class="uppercase font-bold text-3xl text-orange-500"><span class="text-black">Tea</span> House</h1>
+    </div>
+    <div class="space-x-7 text-lg font-semibold text-gray-500">
+            <a href="#">Home</a>
+            <a href="#">Products</a>
+            <a href="#">About us</a>
+            <a href="#">Contact us</a>
+    </div>
+</div>
+ </header>
+ <main class="h-[85vh] bg-gradient-to-b from-orange-100 to-amber-50">
+    <section class="max-w-screen-xl mx-auto px-16 lg:px-28">
+        <!-- Flex Parent  -->
+        <div class="lg:flex items-center">
+        <!-- Text-content  -->
+         <div>
+            <h1 class="lg:text-7xl text-5xl font-bold lg:mt-16 mb-8">It's good <br> tea time at The Tea House</h1>
+            <p class="text-gray-500 font-medium text-base mb-8 w-3/4">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
+            <button class="bg-gradient-to-r from-orange-500 to-red-600 px-5 py-3 rounded-lg text-white">Explore More <i class="fa-solid fa-arrow-right text-white -rotate-45 text-xl"></i></button>
+         </div>
+         <!-- image Content  -->
+         <div class="relative">
+            <img class="w-full" src="images/banner.png" alt="">
+            <!-- Card  -->
+            <div class="flex items-center absolute top-28 md:top-72 md:left-32 lg:left-28 rounded-lg drop-shadow-lg bg-white px-2 py-2 md:px-10 lg:py-4">
+                <div>
+                    <i class="fa-solid fa-star text-3xl text-amber-500 mr-2"></i>
+                </div>
+                <div>
+                    <h3 class="font-bold lg:text-2xl text-xl">5.00</h3>
+                    <p class="text-gray-500">Trust Pilot Ratings</p>
+                </div>
+            </div>
+         </div>
+        </div>
+    </section>
+</main>
+    <footer>
+
+    </footer>
+</body>
+</html>
